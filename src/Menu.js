@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Menu.css';
+import perro from './perro.jpg.jpeg'; // Reemplaza 'perro.jpg.jpeg' con la ruta correcta de tu imagen
 
 function Menu() {
   const [menuAbierto, setMenuAbierto] = useState(false);
@@ -29,12 +30,13 @@ function Menu() {
         </header>
         <section className="banner">
           <h2>Ama a tus mascotas un poco más.</h2>
+          <img
+            src={perro}
+            alt="Mi imagen de perro"
+            className="imagen-mypet"
+            style={{ width: '250px', height: 'auto' }} // Ajusta el tamaño aquí
+          />
         </section>
-        <main className="contenido">
-          <h2>Contenido Principal</h2>
-          <p>Aquí puedes agregar el contenido principal de tu aplicación.</p>
-          <img src="perro.jpg" alt="Descripción de la imagen" />
-        </main>
       </div>
     </div>
   );
