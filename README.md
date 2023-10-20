@@ -1,3 +1,9 @@
+![Login]([URL de la imagen](https://github.com/Yaritza2005/proyecto1/blob/main/Captura%20de%20pantalla%20(12).png))
+![Pagina principal]([URL de la imagen](https://github.com/Yaritza2005/proyecto1/blob/main/Captura%20de%20pantalla%20(13).png))
+![Pagina principal y Menú Hamburguesa]([URL de la imagen](https://github.com/Yaritza2005/proyecto1/blob/main/Captura%20de%20pantalla%20(14).png))
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
