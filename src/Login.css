@@ -1,12 +1,19 @@
+/* Login.css */
+body {
+    background-color: lightblue; /* Fondo celeste para todo el cuerpo de la página */
+  }
+  
+
 .login-container {
     text-align: center;
     margin: 50px auto;
     max-width: 300px;
-    padding: 20px;
+    padding: 50px;
     background-color: #ff69b4; /* Fondo rosa (por ejemplo) */
     border: 1px solid #ff69b4; /* Borde rosa (mismo color que el fondo) */
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    
   }
   
   .login-container h2 {

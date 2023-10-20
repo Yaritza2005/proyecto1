@@ -10,7 +10,7 @@ function Menu() {
   };
 
   return (
-    <div className="menu">
+    <div className="menu"> {/* La clase "menu" ya tiene un fondo rosa */}
       <button onClick={toggleMenu} className="boton-hamburguesa">
         ☰
       </button>
@@ -43,3 +43,4 @@ function Menu() {
 }
 
 export default Menu;
+
