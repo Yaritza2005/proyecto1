@@ -1,0 +1,78 @@
+menu {
+    display: flex;
+  }
+  
+  .menu-hamburguesa {
+    width: 0;
+    height: 100%;
+    background-color: #ff69b4; /* Fondo rosa (por ejemplo) */
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.3s;
+    overflow-x: hidden;
+    padding-top: 60px;
+    z-index: 1;
+  }
+  
+  .menu-hamburguesa.abierto {
+    width: 250px;
+  }
+  
+   /* Estilos para el botón de menú hamburguesa */
+.boton-hamburguesa {
+    font-size: 30px;
+    cursor: pointer;
+    color: #000; /* Texto en color negro */
+    position: fixed;
+    top: 10px;
+    left: 10px; /* Ajusta la posición izquierda según tu preferencia */
+    z-index: 2; /* Asegura que esté por encima del contenido */
+  }
+  
+  
+  .cerrar-menu {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: #000; /* Texto en color negro */
+  }
+  
+  .menu-lista {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu-lista li {
+    padding: 10px;
+  }
+  
+  .menu-lista a {
+    text-decoration: none;
+    color: #fff; /* Texto en color blanco */
+    display: block;
+    font-size: 18px;
+    transition: 0.2s;
+  }
+  
+  .menu-lista a:hover {
+    background-color: #000; /* Fondo en color negro */
+    color: #fff; /* Texto en color blanco al pasar el mouse */
+  }
+
+  /* Estilos para el botón de menú hamburguesa */
+.boton-hamburguesa {
+    font-size: 30px;
+    cursor: pointer;
+    color: #000; /* Texto en color negro */
+    position: fixed;
+    top: 10px;
+    left: 10px; /* Ajusta la posición izquierda según tu preferencia */
+    z-index: 2; /* Asegura que esté por encima del contenido */
+  }
+  
+  
+  
+  
+  

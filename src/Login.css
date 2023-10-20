@@ -1,0 +1,47 @@
+.login-container {
+    text-align: center;
+    margin: 50px auto;
+    max-width: 300px;
+    padding: 20px;
+    background-color: #ff69b4; /* Fondo rosa (por ejemplo) */
+    border: 1px solid #ff69b4; /* Borde rosa (mismo color que el fondo) */
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .login-container h2 {
+    margin-bottom: 50px;
+  }
+  
+  .form-group {
+    text-align: center;
+    margin: 5 auto;
+  }
+  
+  .form-group label {
+    display: block;
+    text-align: left; /* Alinear el texto a la izquierda */
+  }
+  
+  .form-group input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px auto; /* Centrar los campos */
+  }
+  
+  .login-container button {
+    background-color: #000; /* Fondo negro (mismo color que en el menú) */
+    color: #fff; /* Texto en color blanco */
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-container button:hover {
+    background-color: #444; /* Fondo negro más oscuro (por ejemplo) al pasar el mouse */
+  }
+  
+    
